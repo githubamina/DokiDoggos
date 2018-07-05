@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietFragments.HowToFeedFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treats"
+                android:textAlignment="center"
+                android:layout_marginTop="80dp"
+                android:textSize="40sp"
+                android:padding="20dp"
+                android:fontFamily="@font/adam"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treats_intro"
+                style="@style/basicText" />
+
+            <TableLayout
+                android:layout_height="wrap_content"
+                android:id="@+id/TableLayout01"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="•"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textSize="28sp"/>
+
+                    <TextView
+                        android:id="@+id/age_view"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Commercial treats"
+                        android:textSize="28sp"
+                        android:fontFamily="@font/adam"
+                        android:textStyle="bold"
+                        android:paddingBottom="20dp"
+                        />
+                </TableRow>
+
+
+
+
+
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="•"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textSize="28sp"
+                        />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Natural treats"
+                        android:textSize="28sp"
+                        android:fontFamily="@font/adam"
+                        android:textStyle="bold"
+                        android:paddingBottom="25dp"
+                        />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="•"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textSize="28sp"
+                        android:fontFamily="@font/adam"/>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Homemade treats"
+                        android:textSize="28sp"
+                        android:fontFamily="@font/adam"
+                        android:textStyle="bold"
+                        android:paddingBottom="50dp"
+                        />
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Commercial treats"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/adam"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/commercial_treats"
+                style="@style/basicText" />
+
+            <TableLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="•"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textSize="28sp"/>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Eukanuba"
+                        android:textSize="28sp"
+                        android:fontFamily="@font/adam"
+                        android:textStyle="bold"
+                        android:paddingBottom="20dp"
+                        />
+                </TableRow>
+
+
+
+
+
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="•"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textSize="28sp"
+                        />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Balanced Life"
+                        android:textSize="28sp"
+                        android:fontFamily="@font/adam"
+                        android:textStyle="bold"
+                        android:paddingBottom="25dp"
+                        />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="•"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textSize="28sp"
+                        android:fontFamily="@font/adam"/>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="ZiwiPeak"
+                        android:textSize="28sp"
+                        android:fontFamily="@font/adam"
+                        android:textStyle="bold"
+                        android:paddingBottom="50dp"
+                        />
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Natural treats"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/adam"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/non_commerical"
+                style="@style/basicText" />
+
+            <TableLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="•"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textSize="28sp"/>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Applesauce"
+                        android:textSize="28sp"
+                        android:fontFamily="@font/adam"
+                        android:textStyle="bold"
+                        android:paddingBottom="20dp"
+                        />
+                </TableRow>
+
+
+
+
+
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="•"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textSize="28sp"
+                        />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Bananas"
+                        android:textSize="28sp"
+                        android:fontFamily="@font/adam"
+                        android:textStyle="bold"
+                        android:paddingBottom="25dp"
+                        />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="•"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textSize="28sp"
+                        android:fontFamily="@font/adam"/>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Blueberries"
+                        android:textSize="28sp"
+                        android:fontFamily="@font/adam"
+                        android:textStyle="bold"
+                        android:paddingBottom="50dp"
+                        />
+                </TableRow>
+
+
+            </TableLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Homemade treats"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/adam"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_made"
+                style="@style/basicText"
+                android:paddingBottom="50dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pets"
+            android:icon="@drawable/logo"
+            android:title="Pets"/>
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/logo"
+            android:title="Diet" />
+        <item
+            android:id="@+id/nav_fun"
+            android:icon="@drawable/logo"
+            android:title="Fun" />
+        <item
+            android:id="@+id/nav_medical"
+            android:icon="@drawable/logo"
+            android:title="Medical"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/nav_grooming"
+            android:icon="@drawable/logo"
+            android:title="Grooming"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/nav_behaviour"
+            android:icon="@drawable/logo"
+            android:title="Behaviour"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/logo"
+            android:title="Social"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/nav_carers"
+            android:icon="@drawable/logo"
+            android:title="Carers"
+            app:showAsAction="never"/>
+
+
+
+
+
+    </group>
+
+
+
+</menu>

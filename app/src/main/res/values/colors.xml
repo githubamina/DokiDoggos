@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="recipe1">#99d8e9</color>
+    <color name="recipe2">#f6e57b</color>
+    <color name="recipe3">#f0cf91</color>
+    <color name="recipe4">#b3c7e8</color>
+    <color name="recipe5">#dcc1f2</color>
+    <color name="recipe6">#f2d1ec</color>
+    <color name="recipe7"> 	#a4e2c9</color>
+    <color name="recipe8">#f4cece</color>
+    <color name="recipe9">#efa87a</color>
+    <color name="recipe10">#ccf2e8</color>
+
+    <color name="dot1">#ecf7ff</color>
+    <color name="dot2">#0f0f0f</color>
+
+
+    <color name="trick">#99d9e7</color>
+
+
+
+    <color name="gamee1">#99d8e9</color>
+    <color name="game2">#f6e57b</color>
+    <color name="game3">#f0cf91</color>
+    <color name="game4">#b3c7e8</color>
+    <color name="game5">#dcc1f2</color>
+    <color name="game6">#f2d1ec</color>
+    <color name="game7"> 	#a4e2c9</color>
+    <color name="game8">#f4cece</color>
+    <color name="game9">#efa87a</color>
+    <color name="game10">#ccf2e8</color>
+
+</resources>

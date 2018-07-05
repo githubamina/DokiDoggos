@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    android:id="@+id/nav_bottom"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group >
+        <item
+            android:id="@+id/nav_pets"
+            android:icon="@drawable/logo"
+            android:title="Pets" />
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/logo"
+            android:title="Diet" />
+
+        <item
+            android:id="@+id/nav_fun"
+            android:icon="@drawable/logo"
+            android:title="Fun"
+            android:checkable="true"
+            android:checked="false"/>
+
+        <item
+            android:id="@+id/nav_medical"
+            android:icon="@drawable/logo"
+            android:title="Medical" />
+
+
+
+
+    </group>
+
+
+
+</menu>

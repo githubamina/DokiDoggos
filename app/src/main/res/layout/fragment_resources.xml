@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietFragments.ResourcesFragment">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="20dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Resources"
+               android:textAlignment="center"
+               android:layout_marginTop="80dp"
+               android:textSize="40sp"
+               android:fontFamily="@font/adam"
+               android:textStyle="bold"
+               />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/resources_intro"
+               style="@style/basicText"
+               android:layout_marginBottom="50dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/rspca_link"
+               android:textAlignment="center"
+               android:textSize="30sp"
+               android:fontFamily="@font/adam"
+               android:textStyle="bold"
+               android:id="@+id/openRSPCA"
+
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/rspca"
+               style="@style/basicText"
+               android:layout_marginBottom="50dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="ASPCA"
+               android:textAlignment="center"
+               android:textSize="30sp"
+               android:fontFamily="@font/adam"
+               android:textStyle="bold"
+               android:id="@+id/openASPCA"
+
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/aspca"
+               style="@style/basicText"
+               android:layout_marginBottom="50dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Vetwest"
+               android:textAlignment="center"
+               android:textSize="30sp"
+               android:fontFamily="@font/adam"
+               android:textStyle="bold"
+               android:id="@+id/openVetwest"
+
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/vetwest"
+               style="@style/basicText"
+               android:layout_marginBottom="50dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Pet Food Reviews"
+               android:textAlignment="center"
+               android:textSize="30sp"
+               android:fontFamily="@font/adam"
+               android:textStyle="bold"
+               android:id="@+id/openReviews"
+
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/pet_food_reviews"
+               style="@style/basicText"
+               android:layout_marginBottom="50dp"/>
+
+
+
+
+       </LinearLayout>
+   </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietFragments.DogsPersonalDietFragment">
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"/>
+
+    <Button
+        android:id="@+id/reminder_button"
+
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reminder"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/name_medical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:textSize="40sp"
+            android:fontFamily="@font/adam"
+            android:textStyle="bold"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vet Name: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/vet_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vet Clinic Name: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/vet_clinic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vet Phone Number(s): "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/vet_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Previous Vets: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/previous_vets"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next Vet Appointment: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/vet_appt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ongoing Medications: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/reg_meds"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Short-Term Medications: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/short_term_meds"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Health Supplements: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/supplements"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dental Routine: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/dental"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Health Conditions: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/health_conditions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Allergies: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/allergies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Insurance Provider: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/insurance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Insurance Policy Number: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/policy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HeartWorm Protection Schedule: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/hworm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flea and Tick Prevention: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/ftick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next Canine Distemper Virus Vaccine: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/distemper_vac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next Canine Parvovirus Vaccine: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/parvo_vac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next Canine Adenovirus (Hepatitis) Vaccine: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/adeno_vac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next Parainfluenza Virus Vaccine: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/pinfluenza_vac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next Bortadella Bronchispetica Vaccine:"
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/bb_vac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next Leptospira Interrogans Vaccine: "
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/linterrogans_vac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Desexed:"
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/desexed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Other notes:"
+                    android:textSize="28sp"
+                    android:fontFamily="@font/adam"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
+                <TextView
+                    android:id="@+id/med_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    style="@style/basicText"
+                    android:textStyle="italic"
+                    android:text=""/>
+                <View
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+</FrameLayout>

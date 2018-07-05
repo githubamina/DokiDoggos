@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moo.dokidoggos">
+
+    <permission android:name="com.example.moo.dokidoggos.DatabaseAndProvider.PetContentProvider" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".DatabaseAndProvider.PetContentProvider"
+            android:authorities="com.example.moo.dokidoggos.DatabaseAndProvider.PetContentProvider"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:label="PetProvider"
+            android:readPermission="com.example.moo.dokidoggos.PetContentProvider.READ" />
+
+        <activity
+            android:name=".Activities.AddNewPetActivity"
+            android:label="@string/title_activity_add_new_pet"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditPetActivity"
+            android:label="@string/title_activity_edit_pet"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.FoodCheckerActivity"
+            android:label="@string/title_activity_food_checker"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.FoodAnswerActivity"
+            android:label="@string/title_activity_food_answer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditDietInfoActivity"
+            android:label="@string/title_activity_edit_diet_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.RecipeActivity"
+            android:label="@string/title_activity_recipe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.SelectedRecipeActivity"
+            android:label="@string/title_activity_selected_recipe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditExerciseActivity"
+            android:label="@string/title_activity_edit_exercise"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.TrickActivity"
+            android:label="@string/title_activity_trick_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.GamesActivity"
+            android:label="@string/title_activity_games"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.EditMedicalInfoActivity"
+            android:label="@string/title_activity_edit_medical_info"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

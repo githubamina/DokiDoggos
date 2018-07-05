@@ -1,0 +1,538 @@
+<resources>
+    <string name="app_name">Doki Doggos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_new_pet">Add New Pet</string>
+    <string name="title_activity_edit_pet">Edit Pet</string>
+    <string name="title_activity_food_checker">Food Checker</string>
+    <string name="title_activity_food_answer">Food Checker Answer</string>
+    <string name="how_much_food_intro">
+        The right amount of food your dog needs will be dependent on several factors: </string>
+    <string name="food_amount_title">How Much/Often Should I Feed My Dog?</string>
+    <string name="age_diet">
+        Once we have determined the right amount to feed our dogs, we can also determine how best to divide that amount into multiple meals throughout the day.
+        \nPuppies over 3 or 4 weeks who eat solid food should be fed 3 or more times daily.
+
+        \nAt about 8-10 weeks, puppies should only be fed twice a day until the dog\'s period of rapid growth is over- when exactly this is
+        depends on the specific dog breed (it can be any where from 8 months, for smaller dogs, to 2 years, for larger ones).
+
+        \nOnce the dog is a fully grown Adult, the feeding schedule can be changed to a more stable one based on the dog\'s own individual lifestyle.
+
+    </string>
+    <string name="size_diet">
+        Smaller dog breeds have higher metabolic rates and will need to be fed more often than
+        larger breeds, who will need to be fed larger quantities less often. </string>
+
+
+    <string name="diet_diet">
+        The most important factor in determining how much to feed your dog is what type of diet you feed your dog.
+        \nPremium dry dog foods will always have a guide on the packaging for how much you should feed your dog daily, based on size, age and/or breed.
+        \nIf you are supplementing your dog\'s dry food with home cooked food or wet premium food, keep in mind that they should only be supplements and
+        not form the core of your dog\'s diet.
+    </string>
+
+
+    <string name="pregnant_diet">
+        If a female dog is pregnant or nursing, she will need to eat more food as she will be expending more energy.
+        \nIf this is the case for your dog, please consult with your vet to determine what is best for your dog.
+    </string>
+
+    <string name="energy_dogs">
+        Dogs who are extremely active (e.g. working or competition dogs) may need to eat more depending on their diet.
+        \nIf an active dog is eating a specially formulated diet for high energy dogs, it is generally best to follow the guide on the packaging.
+        \nIf the active dog is eating regular premium food, they will likely need to eat an increased amount.
+        \nAs all dogs and situations are different, it is always best to consult with your vet before specialising your dog\'s diet.
+    </string>
+
+    <string name="health_diet">
+        If your dog is unwell, your vet will usually suggest they eat differently until they are healthy again- how differently depends on your dog\'s individual circumstances.
+    </string>
+
+
+    <string name="title_activity_edit_diet_info">Update Diet Details</string>
+
+    <string name="puppy_diet">
+        <b>Puppies</b>: puppies under 4 weeks should generally only feed off their mother\'s milk.
+        \n\nPuppies 4-8 weeks should start incorporating solid foods into their diet, and this should be carried out slowly, over 4 or 5 days.
+        \nIt is critical that puppies get the right nutrients in their diet at this age, so that they can grow properly, and this is best accomplished with a core diet of high quality premium brand of puppy food.
+        \nThis is because non-premium foods are very often made from cheap by-products with minimal nutrients, and are sometimes
+        even detrimental to a dog\'s health (causing allergies and illness). \nHome cooked diets are not recommended at this age either because they usually lack
+        the full amount of nutrients dogs need, and can cause bone and teeth conditions, as well as picky eating.
+        \n\nOnce puppies are around 8-12 weeks old, they should be weaned off their mother\'s milk completely and be fed a diet of dry premium puppy food (which can be supplemented with wet premium puppy food).
+        This should continue until the dog is around one year old, at which point they can
+        transition to an adult diet, and this should again be done slowly over a period of 4-5 days.
+        Puppies should also have fresh water on hand 24/7.
+    </string>
+    <string name="adult_diet">
+        <b>Adults</b>: dogs over one year old should be fed a diet consisting mainly of premium grade dry dog food, which can be supplemented with wet premium food or high quality home cooked food.
+         This is because dry premium food generally contains the most nutrients and safest ingredients, and also helps to keep teeth healthy and strong.
+        \n\nAdditional foods such as dog-friendly fruit and vegetables can be fed as snacks/treats but should not amount to over 10% of a dog\'s daily diet.
+        \nAnytime any changes are made to a dog\'s diet (e.g. for allergies, after illness, changing food brand), they should be gradually carried out over 4-5 days.
+        \nAnd just like puppies, adult dogs should always have a supply of fresh water on hand.
+    </string>
+
+    <string name="activity_levels">
+        Dogs who get little exercise and are not very active, such as smaller breeds or older dogs, need diets with decreased sodium,
+         and fewer calories overall, in order to avoid weight gain/obesity.
+        \n\nDogs who get an average amount of exercise (i.e. through daily walks + play) generally get the right amount of nutrients from regular premium brands of dry food.
+        \n\nVery active dogs, such as sporting/competition dogs will need diets with more proteins, fats and/or carbohydrates for the extra energy they expend.
+        \n\nMany premium brands of dog food sell specially formulated foods for both inactive and active dogs, but it is always best to consult with your vet before specialising your dog\'s diet!
+
+    </string>
+
+
+    <string name="health">
+        Dogs in good health should be fed regular premium dog foods but those with allergies or who are unwell will need to eat differently.
+        \n\nDogs who are allergic to certain ingredients (such as grains) will need specially formulated diets which many premium grade brands today cater to,
+        however it is always best to consult with your vet to determine what is best for your dog\'s individual needs.
+        \n\nDogs who are unwell (e.g. have a gastrointestinal infection) are generally unable to digest commercial dog foods and should be fed gentle
+        foods such as chicken broth, cooked plain white rice, and cooked plain chicken breast.
+        Always double check with your vet what to feed your dog when they are unwell.
+
+    </string>
+
+    <string name="pregnancy_diet">
+        Pregnant and nursing dogs expend much more energy than they normally do and will therefore need a higher calorie diet with increased levels of calcium, protein and fat.
+        \n\nIt is crucial that a pregnant dog gets the right amount of nutrients in her diet as malnutrition will cause serious issues for both her and her puppies.
+        \nIf your dog is pregnant it is best to ask your vet for advice on the exact type of diet to feed your pet.
+    </string>
+    <string name="intro_whattofeed">
+        When choosing what type of food to feed our dogs, we need to understand how certain factors change our dogs\' dietary requirements:
+    </string>
+
+
+    <string name="treats_intro">
+         Although its fine for dogs to indulge in treats that aren\'t healthy every now and then just like we do,
+         it is important to make educated decisions on what we choose to treat our dogs with.
+
+
+    </string>
+
+    <string name="commercial_treats">
+        Commercial dog treats are not tested/approved by any standard authority to tell us if they\'re okay for our dogs or not.
+        Because of this lack of regulation, many of these treats are full of ingredients that can make your dog ill, as they contain cheap and harmful by-products and preservatives.
+        \nTo ensure you buy good quality treats for your dogs, only go for locally produced ones, always read the ingredients, be aware of any ingredients your dog is allergic to,
+        and only buy from a brand you are confident in or that other dog owners can vouch for.
+        Some safe dog treat brands you might like to look into for your dog are:
+
+    </string>
+
+    <string name="non_commerical">
+        An easy way of knowing you are feeding your dog safe and healthy treats is by simply feeding them
+        dog-friendly fruit or veggies! Here are some examples:
+
+    </string>
+
+    <string name="home_made">
+        If you\'d like to give your dog something other than commercial treats, try making some for them yourself!
+        <b>Here are some recipes to try</b>, but you can always be creative and make your own too!
+    </string>
+
+
+    <string name="title_activity_recipe">Pick A Recipe</string>
+
+
+    <string name="recipe1_title">Trail Mix</string>
+    <string name="recipe1_ingredients"> - Boiled chicken breast (no spices)\n - Potatoes\n - Carrots </string>
+    <string name="recipe1_steps">
+        1) Preheat oven to 200 degrees celsius\n2)Chop ingredients into small 1-2 cm pieces\n3) Use olive oil spray to lightly coat ingredients\n4) Spread ingredients on a baking tray and place in oven until dried\n\n\
+        Recipe adapted from https://www.cesarsway.com/dog-care/nutrition/recipes-for-quick-and-healthy-dog-treats.
+    </string>
+
+    <string name="recipe2_title">Iced PB and Apple Treats</string>
+    <string name="recipe2_ingredients"> - 1 cup pure apple sauce/puree\n - 1 cup 100% pure peanut butter </string>
+    <string name="recipe2_steps">
+        1) Melt peanut butter in microwave (1-2 mins or so)\n
+        2)Mix together melted peanut butter and apple sauce\n
+        3)Pour mixture into silicon molds or an ice cube tray and place in freezer overnight\n\n\n
+        Recipe adapted from https://www.cesarsway.com/dog-care/nutrition/recipes-for-quick-and-healthy-dog-treats
+    </string>
+
+    <string name="recipe3_title">Pumpkin Biscuits</string>
+    <string name="recipe3_ingredients">
+        - 1 cup whole wheat flour\n - 1 mashed banana\n - 1/4 cup shredded carrots\n 3/4 cup pumpkin puree
+    </string>
+    <string name="recipe3_steps">
+        1) Preheat oven to 180 degrees celsius\n
+        2) Mix together all ingredients until moist\n
+        3) Roll into small balls and place on a baking tray\n
+        4)Bake for 30 minutes\n\n\n
+        Recipe adapted from https://www.mypawsitivelypets.com/2014/11/holiday-dog-treat-recipe-pumpkin-carrot.html
+    </string>
+
+    <string name="recipe4_title">Peanut Butter Ice Cream</string>
+    <string name="recipe4_ingredients">
+         - 2 frozen bananas\n - 1 cup 100% pure natural peanut butter
+    </string>
+    <string name="recipe4_steps">
+        1) Blend bananas in a food processor until smooth\n
+        2) Add peanut butter and continue to blend until smooth and creamy\n
+        3) (Optional) Crumble some of your dog's favourite biscuits and sprinkle on top
+        4) Serve immediately or store in freezer
+    </string>
+
+    <string name="recipe5_title">Watermelon Ice Lollies</string>
+    <string name="recipe5_ingredients">
+         - 2 cups seedless water melon\n
+         - 1 cup water
+    </string>
+    <string name="recipe5_steps">
+        1) Place both ingredients in a blender and blend until smooth\n
+        2) Pour mixture into an ice cube tray or silicon mold\n
+        3) Place in freezer and serve once frozen\n\n\n
+        Recipe adapted from http://www.gonetothesnowdogs.com/watermelon-dog-treat-how-to-make-frozen-dog-treats-diy/
+    </string>
+
+    <string name="recipe6_title">Chicken Biscuits</string>
+    <string name="recipe6_ingredients">
+         - 2 1/2 cups whole wheat flour\n
+         - 1 mashed banana\n
+         - 1/2 cup chicken broth
+    </string>
+    <string name="recipe6_steps">
+        1) Preheat oven to 180 degrees celsius\n
+        2) Mix all ingredients together until dough is formed\n
+        3) Roll dough to 1.5cm thickness\n
+        4) Cut into shapes with cookie cutters and place on lightly greased baking sheet\n
+        5) Bake for 30 mins or so\n\n\n
+        Recipe adapted from https://www.cesarsway.com/dog-care/nutrition/recipes-for-quick-and-healthy-dog-treats
+    </string>
+
+    <string name="recipe7_title">Pupcakes</string>
+    <string name="recipe7_ingredients">
+         - 2 3/4 cups water\n
+         - 1/4 cup applesauce\n
+         - 1 mashed banana\n
+         - 4 cups whole wheat flour\n
+         - 1 cup 100% pure apple/banana chips\n
+    </string>
+    <string name="recipe7_steps">
+        1) Preheat oven to 180 degrees celsius\n
+        2) Mix water, applesauce and banana together\n
+        3) Add in flour and apple/banana chips and mix until well combined\n
+        4) Pour into lightly greased muffin pan and bake for 1 hour - 1 hour + 15 mins\n\n\n
+        Recipe adapted from https://www.cesarsway.com/dog-care/nutrition/recipes-for-quick-and-healthy-dog-treats
+    </string>
+
+    <string name="recipe8_title"> Easy Peanut Butter Cookies </string>
+    <string name="recipe8_ingredients">
+         - 2 cups whole wheat flour\n
+         - 1 cup 100% pure peanut butter\n
+         - 1 cup water
+    </string>
+    <string name="recipe8_steps">
+        1) Preheat oven to 190 degrees celsius\n
+        2) Mix peanut butter and water together\n
+        3) Stir in flour until dough is formed\n
+        4) Roll dough to 1.5cm thickness\n
+        5) Cut into shapes with cookie cutters and place on lightly greased baking sheet\n
+        6) Bake for 20 mins
+    </string>
+
+    <string name="recipe9_title">Easy Fruit Puree Cookies</string>
+    <string name="recipe9_ingredients">
+         - 2 cups whole wheat flour\n
+         - 2 cups 100% pure apple or blueberry puree
+    </string>
+    <string name="recipe9_steps">
+        1) Preheat oven to 180 degrees celsius\n
+        2) Mix flour and puree together til dough is formed (add water as needed)\n
+        3) Roll dough to 1.5cm thickness\n
+        4) Cut into shapes with cookie cutters and place on lightly greased baking sheet\n
+        5) Bake for 20-25 mins\n\n\n
+        Recipe adapted from https://dog-milk.com/doggiy-easy-two-ingredient-homemade-dog-treats/
+    </string>
+
+    <string name="recipe10_title">Chicken Rice Muffins</string>
+    <string name="recipe10_ingredients">
+          - 1 cup boneless plain boiled chicken breast (shredded or ground)\n
+         - 1 cup cooked plain white/brown rice\n
+         - 3 tbsp rice flour\n
+         - 1 tbsp parsley\n
+         - 1 mashed banana
+
+    </string>
+    <string name="recipe10_steps">
+        1) Preheat oven to 180 degrees celsius\n
+        2) Mix together all ingredients til well combined\n
+        3) Pour mixture evenly into lightly greased muffin pan\n
+        4) Bake for 25 mins\n\n\n
+        Recipe adapted from http://www.wideopenpets.com/10-recipes-homemade-dog-treats/
+
+    </string>
+    <string name="title_activity_selected_recipe">Selected Recipe</string>
+    <string name="resources_intro">If you\'re looking for more information on feeding your dog, take a look at some of these helpful resources: </string>
+    <string name="rspca">The RSPCA is a trusted and reliable source of pet care information. Here you can find lots of general information on caring for your dog.</string>
+    <string name="aspca">The ASPCA, like the RSPCA has some useful information on general care guidelines for dogs.</string>
+    <string name="vetwest">Vetwest is a veterinary hospital with several locations in Perth. The website has detailed and accurate information on dog care written by reputable professionals.</string>
+    <string name="pet_food_reviews">Pet Food Reviews is an independent review site with information on most Australian commercial dog foods. Reviews detail the types of ingredients found in these foods and whether or not they are beneficial to a dog\'s diet. The comments section may be particularly helpful in finding out how other dog owners have fared with various brands.</string>
+    <string name="rspca_link">RSPCA</string>
+    <string name="how_to_intro">
+        Although some dogs will happily eat if you just plonk a bowl of food down in front of them, others are much more picky.
+        \nIf you haven\'t yet discovered how your dog likes to eat, try some of the methods below:
+    </string>
+    <string name="feeding_times">Some dogs will graze on their food throughout the day if you leave it out for them, but for many it\'s better to use allocated feeding times (e.g. feed them at the same times as your meal times)</string>
+    <string name="games">If your dog is unenthused by their food, try exciting them to eat by turning meal times into game times. Some ideas include: hiding kibble pieces for your dog to sniff out and find, tossing kibble pieces for your dog to chase and eat, making your dog do tricks before eating, or putting food in treat toys- be creative and think of your own games too!</string>
+    <string name="bowls">A lot of dogs food bowls are made from stainless steel, but this is also a type of material that many dogs dislike for a variety of reasons (the sound of kibble being poured into the bowl, the feel of the bowl on their tongues, the sound the bowl makes when they push it, etc). Alternatives could be to use melamine/plastic children\'s bowls, and/or slow feeder silicone bowls for dogs.</string>
+
+    <string name="food_areas">Some dogs prefer to eat their food in specific areas, such as: on the carpet, with their owners, with other pets, in a special room in the house, etc.</string>
+    <string name="title_activity_edit_exercise">EditExerciseActivity</string>
+    <string name="title_activity_trick_">Trick_Activity</string>
+
+    <string-array name="roll_over_steps">
+        <item>
+            1. Have your dog in a \'lie down\' position before you begin, then use a favourite treat to lure your dog\'s nose (and therefore head as well) to the side.
+        </item>
+        <item>
+            2. Once the treat is behind your dog\'s head, move it around to the other side of their face and downwards so they (if following the lure) will flop towards the ground on their side.
+        </item>
+        <item>
+            3. Continue to move the treat close to the ground by your dog\'s nose and then up towards the other side of their head, so that they will have to sit upright again to follow it. Once this step is completed, your dog has now rolled over, make sure you give them lots of praise!
+        </item>
+        <item>
+            4. Once your dog is able to roll over in one smooth go, begin saying \'roll over\' each time you lure them into the roll.
+        </item>
+        <item>
+            5. Remember to always praise your dog each time they make any progress in the right direction. Keep practicing until your dog is able to roll on command without you luring them.
+        </item>
+        <item>
+            6. Congratulations, your dog now knows how to roll over on command! If you want your dog to remember this trick, you will need to practice it with them often.
+        </item>
+
+    </string-array>
+
+    <string-array name="bang_steps">
+        <item>
+            1. Have your dog in a \'lie down\' position before you begin, then use a favourite treat to lure your dog\'s nose (and therefore head as well) to the side.
+        </item>
+        <item>
+            2. Once the treat is behind your dog\'s head, move it around to the other side of their face and downwards so they (if following the lure) will flop towards the ground on their side. Make sure the side of your dog\'s face is on the ground as well.
+        </item>
+        <item>
+            3. If your dog already knows roll over, they may get confused and think you want them to roll over. If this happens, be very quick to reward your dog as soon as they lie down on their side.
+        </item>
+        <item>
+            4. Continue repeating this with your dog, and start saying \'bang\' or \'play dead\' or any command your prefer, as you lure them into position.
+        </item>
+        <item>
+            5. Keep practicing until your dog is able to carry out the trick on your command without the need for a lure.
+        </item>
+        <item>
+            6. Congratulations, your dog now knows bang/play dead! If you want your dog to remember this trick, you will need to practice it with them often.
+        </item>
+    </string-array>
+    <string-array name="spin_steps">
+        <item>
+         1. Have your dog in a standing position before you begin, then use a favourite treat to lure your dog\'s nose/head to the side and then towards their tail.
+        </item>
+        <item>
+            2. Once your dog is looking backwards, continue to move the treat around their body, past their tail, and back to their head on the opposite side you started on. If your dog finds the treat to be of high enough value, they will follow it with their body doing a 360 turn.
+        </item>
+        <item>
+            3. Continue repeating this movement until your dog is able to do it smoothly and quickly. Then begin adding the command \'spin\' or a hand gesture for your dog to associate with it.
+        </item>
+        <item>
+            4. Keep practicing until your dog is able to carry out the trick on your command without the need for a lure.
+        </item>
+        <item>
+             6. Congratulations, your dog now knows how to spin! If you want your dog to remember this trick, you will need to practice it with them often.
+        </item>
+    </string-array>
+    <string-array name="shake_steps">
+        <item>
+            1. Begin with your dog sitting in front of you, facing towards you. Then hold a favourite treat out in front of you, making sure your dog sees it before you close your fist around it. Hold your other hand out flat in front of you as well.
+        </item>
+        <item>
+            2. Your dog will eventually tap or swipe at your fist (make sure you are using a treat your dog highly values!). As soon as your dog makes any move to do so (e.g. moves one paw towards you) reward them immediately while using your other hand to shake your dog\'s paw.
+        </item>
+        <item>
+            3. After many repetitions of this, your dog will begin to associate having their paw in your empty hand with being rewarded. At this point, only reward your dog when they move their paw to your empty hand (rather than your fist with the treat).
+        </item>
+        <item>
+            4. Once your dog is consistently putting their paw on your hand, start saying the command \'shake\' or \'paw\' as you place your hand in front of you.
+        </item>
+        <item>
+            5. Keep practicing until your dog is able to carry out the trick without needing to see your fist with the treat.
+        </item>
+        <item>
+            6. Congratulations, your dog now knows how to shake! If you want your dog to remember this trick, you will need to practice it with them often.
+        </item>
+    </string-array>
+
+    <string-array name="kiss_steps">
+        <item>
+            1. Begin by having your dog sit in front of you. Then put a small amount of peanut butter on your hands (or face if your prefer).
+        </item>
+        <item>
+            2. Say the command "kiss" as you move your hands (or face) towards your dog\'s face. Your dog will lick the peanut butter off you.
+        </item>
+        <item>
+            3. Repeat this several times until your dog associates the command with licking you. At this point stop moving towards your dog when you say kiss and let them come to you.
+        </item>
+        <item>
+            4. With enough repetitions your dog will give you licks on command even when you don\'t have peanut butter on you!
+        </item>
+        <item>
+            5. Congratulations, your dog now knows how to kiss! If you want your dog to remember this trick, you will need to practice it with them often.
+        </item>
+
+    </string-array>
+
+    <string-array name="dance_steps">
+        <item>
+            1. Begin with your dog sitting in front of you. Then, take one of your dog\'s favourite treats and move it upwards, over the top, and slightly behind your dog\'s head so that they will be lured onto their hind legs.
+            As soon as your dog\'s front legs leave the ground, reward them immediately.
+        </item>
+        <item>
+            2. Keep practicing having your dog simply stand on its hind legs until they are able to do so quickly and reliably.
+        </item>
+        <item>
+            3. Once your dog is standing okay, start moving the treat in a small circle around their head while they are standing. This will encourage your dog to \'dance\' around in a circle to follow the treat.
+        </item>
+        <item>
+            4. Keep practicing this and rewarding your dog generously every time they make progress in achieving the whole \'dance\'.
+        </item>
+        <item>
+            5. Once your dog is twirling while standing on their hind legs, start adding the command \'dance\' as you lure them into it.
+        </item>
+        <item>
+            6. Keep on practicing until your dog is able to do the whole trick smoothly and consistently. At this point you should be able to lure your dog into a hind legged stand using a hand gesture similar to
+            how you lured them up, and then use the \'dance\' command to get them to twirl around while standing.
+        </item>
+        <item>
+            7. Congratulations, your dog now knows how to dance! If you want your dog to remember this trick, you will need to practice it with them often.
+        </item>
+    </string-array>
+    <string-array name="speak_steps">
+        <item>
+            1. Before you begin, get your dog in an excited mood- perhaps by playing their favourite game or getting their leash out.
+        </item>
+        <item>
+            2. Once your dog is excited and full of energy, get one of their favourite treats out and show it to them before having them sit down, and hiding it behind your back.
+        </item>
+        <item>
+            3. If the treat is high value enough to your dog, and they are in an excited enough mood, most dogs will get impatient and make some sort of vocalisation to tell you so. As soon as they do, reward them immediately and generously.
+        </item>
+        <item>
+            4. Keep repeating this, adding the command \'speak\' each time your dog makes a noise. If you want your dog to stop making noise (e.g. barking/whining at you) use the command \'quiet\' and turn away from them.
+        </item>
+        <item>
+            5. Keep practicing until your dog is able to \'speak\' and quiet down on your command.
+        </item>
+        <item>
+            6. Congratulations, your dog now knows how to speak! If you want your dog to remember this trick, you will need to practice it with them often.
+        </item>
+    </string-array>
+
+    <string-array name="high_five_steps">
+        <item>
+            1. The easiest way to teach your dog this trick is to teach them \'shake\' first.
+        </item>
+        <item>
+            2. Once your dog knows \'shake\', begin teaching high-five by holding your hand out vertically while you hold a treat in the opposite hand.
+        </item>
+        <item>
+            3. Most dogs who know shake will understand they need to hit their paw on your hand. As soon as they do, (or make any move to) say the command \'high-five\', making sure your hand is touching their paw as you reward them generously.
+        </item>
+        <item>
+            4. Keep practicing until your dog is able to high five you on command.
+        </item>
+        <item>
+            5. Congratulations, your dog now knows \'high-five\'! If you want your dog to remember this trick, you will need to practice it with them often.
+        </item>
+
+    </string-array>
+    <string-array name="crawl_steps">
+        <item>
+            1. Begin by sitting down with your back against a wall or sofa with your knees bent, forming an arch. Have your dog lying down perpendicular to you facing towards your legs.
+        </item>
+        <item>
+            2. Using a favourite treat lure your dog to follow it along the ground, under your legs. Each time your dog makes any movement to follow the treat (keeping low to the ground) reward them immediately.
+        </item>
+        <item>
+            3. Once your dog is crawling into your leg arch, start adding the command "crawl" as you continue to try and lure them all the way through.
+        </item>
+        <item>
+            4. Once your dog is able to move smoothly and consistently all the way through your leg arch, start practicing without it.
+        </item>
+        <item>
+            5. Keep practicing, adding distance as your dog\'s confidence and skill increases. Your dog will eventually be able to crawl on your command with you luring them.
+        </item>
+        <item>
+            6. Congratulations, your dog now knows how to crawl! If you want your dog to remember this trick, you will need to practice it with them often.
+        </item>
+
+    </string-array>
+    <string-array name="bow_steps">
+        <item>
+            1. Begin with your dog standing in front of you, facing towards you. Then take one of your dog\'s favourite treats and lower it under their chin and towards the back of their front legs.
+            Your dog should bend their front elbows down, while their hind legs are still up. As soon as your dog is in this position, reward them generously.
+        </item>
+        <item>
+            2. If your dog already knows lie down, they may do this instead. If this happens, don\'t treat them, just start again- calmly and patiently, never yell at your dog or be harsh with them.
+        </item>
+        <item>
+            3. Keep practicing this until your dog is getting into the right position consistently. Now start adding the command \'bow\' as you lure them.
+        </item>
+        <item>
+            4. Keep practicing until your dog is able to bow on command.
+        </item>
+        <item>
+            5. Congratulations, your dog now knows how to bow! If you want your dog to remember this trick, you will need to practice it with them often.
+        </item>
+    </string-array>
+    <string-array name="beg_steps">
+        <item>
+            1. Begin with your dog sitting in front of you. Hold one of your dog\'s favourite treats by their nose and then slowly raise it over their head until your dog attempts to sit on their hind legs to get it.
+            As soon as they do, reward your dog generously.
+        </item>
+        <item>
+            2. Repeat this until your dog is able to sit on their hind legs successfully. At this point, add the command \'beg\' as you lure them into position.
+        </item>
+        <item>
+            3. Keep practicing until your dog is able to beg on command.
+        </item>
+        <item>
+            4. Congratulations, your dog now knows how to beg! If you want your dog to remember this trick, you will need to practice it with them often.
+        </item>
+    </string-array>
+    <string name="title_activity_games">GamesActivity</string>
+    <string name="exercise_physicla">
+        All dogs need a good amount of daily exercise in order to stay healthy.
+        The exact amount will depend on your dog\'s age, size and fitness level, but you should aim for at least one hour every single day.
+        This doesn\'t need to be extremely taxing exercise- it can be as simple as walking your dog around the neighbourhood in the evening, or letting them run around the dog park with other dogs.
+        The most important thing is that you exercise your dog in a safe environment and let them exercise at a pace which is comfortable for them.
+        Never take your dog out to exercise in extreme weather (storms, heat, etc.) and never force them to exercise when they are showing signs of tiredness or fatigue (lying down on a walk, excessive panting, etc.)
+        Some more ways of exercising your dog include:
+        \n - Playing games with them
+        \n - Doing agility training
+        \n - Making your dog do tricks for treats
+        \n - Taking your dog on a (pet-friendly!) nature trail with you
+        \n - Letting your dog chase you (or a treat/toy) up and down the stairs
+        \n - Teaching your dog to use a treadmill (always do so safely!)
+
+    </string>
+
+    <string name="exercise_mental">
+        Although most dog owners understand the importance of physical exercise, many are unaware that mental stimulation is just as important for a dog to stay healthy.
+        Because dogs are domesticated animals who generally have everything done for them by us (feeding, grooming, etc.), they don\'t have a natural purpose to fulfill and
+        can therefore become bored, lethargic and even depressed if we do not provide proper outlets for them to use their minds. It can also lead to destructive or aggressive behaviours.
+        \nFortunately, it is easy enough to provide mental stimulation for your dog, and doing so is often a fun and rewarding bonding experience for both you and your dog!
+        Here are some easy ways to keep your dog mentally healthy:
+        \n - Teaching your dog tricks
+        \n - Playing games where your dog has to seek out a toy, treat or even you
+        \n - Letting your dog experience new environments (taking your dog in the car with you, sitting at a cafe with you, etc.)
+        \n - Introducing your dog to new people or pets
+        \n - Getting your dog a new toy
+
+
+    </string>
+    <string name="intro_exercise">It is crucial to your dog\'s health that you exercise them both physically and mentally every day. A lack of either can lead to problematic behaviour, physical illnesses or ailments and even mental illness. Exercising your dog can be a great way to stengthen your bond with them, and also to socialise your dog with other dogs.</string>
+    <string name="title_activity_edit_medical_info">EditMedicalInfoActivity</string>
+
+</resources>

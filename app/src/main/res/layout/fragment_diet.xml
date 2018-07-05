@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragments.DietFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F1F2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+       >
+
+
+        <ImageView
+            android:id="@+id/myDogs"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+
+        <ImageView
+            android:id="@+id/whatToFeed"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/row1"
+        >
+
+
+        <ImageView
+            android:id="@+id/howMuchToFeed"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+
+        <ImageView
+            android:id="@+id/howToFeed"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+
+
+    </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/row2"
+            >
+
+
+            <ImageView
+                android:id="@+id/treats"
+                android:layout_alignParentLeft="true"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+
+            <ImageView
+                android:id="@+id/whatNotToFeed"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="80dp"
+            android:layout_below="@id/row3"
+            >
+
+
+            <ImageView
+                android:id="@+id/recipes"
+                android:layout_alignParentLeft="true"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+
+            <ImageView
+                android:id="@+id/resources"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</FrameLayout>

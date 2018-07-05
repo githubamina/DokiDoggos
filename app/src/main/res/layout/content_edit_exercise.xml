@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_edit_exercise"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:  "/>
+
+        <TextView
+            android:id="@+id/name_exercise_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Walking Schedule: "/>
+
+        <EditText
+            android:id="@+id/walk_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Walking Schedule"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Favourite Games: "/>
+
+        <EditText
+            android:id="@+id/fav_games_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Favourite Games"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Favourite Toys: "/>
+
+        <EditText
+            android:id="@+id/fav_toys_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Favourite Toys"/>
+
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tricks: "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roll over:"/>
+        <RatingBar
+            android:id="@+id/roll_rating_edit"
+            android:tooltipText="How well has your pet learned"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/roll_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Extra notes"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bang!: "/>
+        <RatingBar
+            android:id="@+id/bang_rating_edit"
+            android:tooltipText="How well has your pet learned"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/bang_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="How well has your dog learnt bang yet?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spin: "/>
+
+        <RatingBar
+            android:id="@+id/spin_rating_edit"
+            android:tooltipText="How well has your pet learned"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/spin_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="How well has your dog learnt spin?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shake: "/>
+
+        <RatingBar
+            android:id="@+id/shake_rating_edit"
+            android:tooltipText="How well has your pet learned"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/shake_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes on learning shake"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kiss: "/>
+
+        <RatingBar
+            android:id="@+id/kiss_rating_edit"
+            android:tooltipText="How well has your pet learned"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/kiss_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes on learning kiss"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dance: "/>
+
+        <RatingBar
+            android:id="@+id/dance_rating_edit"
+            android:tooltipText="How well has your pet learned"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/dance_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes on learning dance"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speak: "/>
+
+        <RatingBar
+            android:id="@+id/speak_rating_edit"
+            android:tooltipText="How well has your pet learned"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/speak_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes on learning speak"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="High Five: "/>
+
+        <RatingBar
+            android:id="@+id/high_five_rating_edit"
+            android:tooltipText="How well has your pet learned"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/high_five_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes on learning high five"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crawl: "/>
+
+        <RatingBar
+            android:id="@+id/crawl_rating_edit"
+            android:tooltipText="How well has your pet learned"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/crawl_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes on learning crawl"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wave: "/>
+
+        <RatingBar
+            android:id="@+id/wave_rating_edit"
+            android:tooltipText="How well has your pet learned"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/wave_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes on learning wave"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bow: "/>
+
+        <RatingBar
+            android:id="@+id/bow_rating_edit"
+            android:tooltipText="How well has your pet learned"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/bow_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes on learning bow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beg: "/>
+
+        <RatingBar
+            android:id="@+id/beg_rating_edit"
+            android:tooltipText="How well has your pet learned"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/beg_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes on learning beg"
+            android:layout_marginBottom="80dp"/>
+
+        <EditText
+            android:id="@+id/exercise_notes_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Additonal notes"
+            android:layout_marginBottom="80dp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
